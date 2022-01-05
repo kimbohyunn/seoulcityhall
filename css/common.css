@@ -1,0 +1,70 @@
+.blind, legend, label{
+    width: 1px; height: 1px;
+    margin: -1px;
+    position: absolute;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+header .gnb_area h1 a::after, header .search_area .searchf fieldset .sea::after,
+.main_vis .banner .txt_wrap .btn .prev::after, .main_vis .banner .txt_wrap .btn .stop::after,
+.sc04_board .title_wrap .btn::after, .sc06_newns .txt_wrap .btn, .sc09 .btn_wrap .btn::after,
+footer .f_address .inner .tel::after{
+    background-image: url(../img/icon_set_common.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+}
+
+.main_vis .btn .prev, .main_vis .btn .next, .main_vis .btn .stop{
+    background-image: url(../img/icon_set_common_2019.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+}
+header .search_area h1 a::after{
+    background-image: url(../img/logo_new_2019.png);
+    background-size: 180px;
+    background-repeat: no-repeat;
+
+}
+
+.slide01 .main_nav::after, .slide02 .main_nav::after{
+    background-image: url(../img/icon_main_2019.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+}
+
+.sc02_service .ser_wrap ul li a .s1,.sc02_service .ser_wrap ul li a .s2,.sc02_service .ser_wrap ul li a .s3,
+.sc02_service .ser_wrap ul li a .s4,.sc02_service .ser_wrap ul li a .s5,.sc02_service .ser_wrap ul li a .s6,
+.sc02_service .ser_wrap ul li a .s7,.sc02_service .ser_wrap ul li a .s8,.sc02_service .ser_wrap ul li a .s9,
+.sc02_service .ser_wrap ul li a .s10,.sc02_service .ser_wrap ul li a .s11{
+    background-image: url(../img/icon_set_service_2021.png);
+    background-size: 1140px;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    top: 7px; left: 18px;
+    width: 60px; height: 60px;
+}
+
+.sc07 .inner .sns a h2::after, .sc07 .inner .sns .ins::after,
+.sc07 .inner .sns .face::after,
+.sc07 .inner .sns .twi::after,
+.sc07 .inner .sns .blog::after,
+.sc07 .inner .sns .you::after,
+.sc07 .inner .sns .ka::after{
+    background-image: url(../img/ico_sns_list_2021.png);
+    background-size: 280px;
+    background-repeat: no-repeat;
+}
+
+footer .sns li .face::after,footer .sns li .twi::after,footer .sns li .ins::after,
+footer .sns li .ka::after,footer .sns li .you::after,footer .sns li .blog::after{
+    background-image: url(../img/icon_set_sns.png);
+    background-size: 175px;
+    background-repeat: no-repeat;
+}
